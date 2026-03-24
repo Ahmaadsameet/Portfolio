@@ -2,8 +2,11 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ "backend-dev-team" ]
-  pull_request: ["master"]
+    branches:
+      - "backend-dev-team" 
+  pull_request:
+    branches:
+      - "master"
 
 jobs:
   test:
