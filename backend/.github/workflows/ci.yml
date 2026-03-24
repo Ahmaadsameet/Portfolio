@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "backend-dev-team" 
+      - "master"
   pull_request:
     branches:
       - "master"
